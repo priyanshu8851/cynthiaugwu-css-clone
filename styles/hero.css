@@ -1,0 +1,102 @@
+.hero{
+    width:100%;
+    height:100vh;
+    background-color: #000000;
+    color:#fff;
+    position: relative;
+}
+.nav a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav{
+    width:100%;
+    color:#fff;
+    padding:32px 40px;
+    display: flex;
+    padding-left: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h4{
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: all ease .5s;
+}
+.nav h4:hover{
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.heading{
+    margin-top: 100px;
+}
+.heading h1{
+    font-size: 10vw;
+    line-height: 10vw;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 550;
+    opacity: .6;
+}
+
+.blocktxt .secHead{
+    
+    text-align: right;
+    /* margin-left: 300px; */
+    width:100%;
+
+}
+.blocktxt{
+    /* background-color: aqua; */
+   
+    /* align-items: end; */
+    width: 65vw;
+}
+.blocktxt h5{
+    text-align: right;
+    font-size: 0.6vw;
+}
+.littleHeading{
+    /* margin-top:50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top:5vw;
+    padding-right: 50px;
+}
+.littleHeading h5{
+    text-transform: uppercase;
+    font-size: 0.6vw;
+    text-align: right;
+}
+.herofooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    bottom:3%;
+    justify-content: space-between;
+    padding:0 2vw;
+}
+.herofooter a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.iconset{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.circle{
+    height:25px;
+    width:25px;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:#000;
+}
